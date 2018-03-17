@@ -54,7 +54,7 @@ import java.util.concurrent.locks.ReentrantLock;
 // LowLevelProducerConsumer_9.App
 class BlockingQueue<T> {
 
-    private Queue<T> queue = new LinkedList<>();
+    private Queue<T> queue = new LinkedList<T>();
     private int capacity;
     private Lock lock = new ReentrantLock();
     //condition variables
@@ -103,7 +103,7 @@ class BlockingQueue<T> {
 public class BlockingQueueApp {
 
     public static void main(String[] args) throws InterruptedException {
-        final BlockingQueue<Integer> blockingQueue = new BlockingQueue<>(10);
+        final BlockingQueue<Integer> blockingQueue = new BlockingQueue<Integer>(10);
         final Random random = new Random();
         Thread t1 = new Thread(new Runnable() {
             public void run() {

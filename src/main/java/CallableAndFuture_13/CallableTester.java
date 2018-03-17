@@ -53,7 +53,6 @@ class CallableImpl implements Callable<Integer> {
         myName = i;
     }
 
-    @Override
     public Integer call() {
         for (int i = 0; i < 10; i++) {
             System.out.println("Thread : " + getMyName() + " value is : " + i);

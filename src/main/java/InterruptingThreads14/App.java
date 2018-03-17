@@ -39,7 +39,6 @@ public class App {
 
         Future<?> fu = executor.submit(new Callable<Void>() {
 
-            @Override
             public Void call() throws Exception {
 
                 for (int i = 0; i < 1E8; i++) {

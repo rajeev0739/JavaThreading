@@ -27,8 +27,8 @@ public class WorkerMethodsSynchronized {
 
     private Random random = new Random();
 
-    private List<Integer> list1 = new ArrayList<>();
-    private List<Integer> list2 = new ArrayList<>();
+    private List<Integer> list1 = new ArrayList<Integer>();
+    private List<Integer> list2 = new ArrayList<Integer>();
 
     /**
      * synchronized, methods use different data (list1 list2) so by synchronized

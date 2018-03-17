@@ -52,6 +52,7 @@ class Processor implements Runnable {
         } catch (InterruptedException ignored) {}
         latch.countDown();
     }
+
 }
 
 public class App {
