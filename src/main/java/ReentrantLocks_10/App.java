@@ -47,24 +47,8 @@ package ReentrantLocks_10;
  * <li>The synchronized keyword can be put in method definitions which avoids
  * the need for a block which reduces nesting.</li>
  * </ul>
- * <br><br>
- * For more complete comparison of
- * {@link java.util.concurrent.locks.ReentrantLock}s and {@code synchronized}
- * see:<em>
- * http://guruzon.com/1/concurrency/explicit-lock-locking/difference-between-synchronized-and-reentrantlock-in-java
- * </em>
- * <br><br>
- * Codes with minor comments are from
- * <a href="http://www.caveofprogramming.com/youtube/">
- * <em>http://www.caveofprogramming.com/youtube/</em>
- * </a>
- * <br>
- * also freely available at
- * <a href="https://www.udemy.com/java-multithreading/?couponCode=FREE">
- *     <em>https://www.udemy.com/java-multithreading/?couponCode=FREE</em>
- * </a>
  *
- * @author Z.B. Celik <celik.berkay@gmail.com>
+ *
  */
 public class App {
 

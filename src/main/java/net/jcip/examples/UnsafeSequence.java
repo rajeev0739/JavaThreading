@@ -5,7 +5,6 @@ import net.jcip.annotations.*;
 /**
  * UnsafeSequence
  *
- * @author Brian Goetz and Tim Peierls
  */
 
 @NotThreadSafe

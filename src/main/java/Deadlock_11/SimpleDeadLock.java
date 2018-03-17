@@ -7,8 +7,6 @@ package Deadlock_11;
  * is a programming situation where two or more threads are blocked
  * forever, this situation arises with at least two threads and two or more
  * resources.
- *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 public class SimpleDeadLock {
 

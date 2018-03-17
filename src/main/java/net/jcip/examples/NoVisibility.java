@@ -5,7 +5,6 @@ package net.jcip.examples;
  * <p/>
  * Sharing variables without synchronization
  *
- * @author Brian Goetz and Tim Peierls
  */
 
 public class NoVisibility {

@@ -10,25 +10,13 @@ import java.util.Random;
  * making the method synchronized or making "different" objects inside the
  * method synchronized, By defining two different locks we say that one thread
  * may execute the stageOne while other executes stageTwo.
- * <br><br>
- * Codes with minor comments are from
- * <a href="http://www.caveofprogramming.com/youtube/">
- * <em>http://www.caveofprogramming.com/youtube/</em>
- * </a>
- * <br>
- * also freely available at
- * <a href="https://www.udemy.com/java-multithreading/?couponCode=FREE">
- *     <em>https://www.udemy.com/java-multithreading/?couponCode=FREE</em>
- * </a>
- *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 public class WorkerMethodsSynchronized {
 
     private Random random = new Random();
 
-    private List<Integer> list1 = new ArrayList<>();
-    private List<Integer> list2 = new ArrayList<>();
+    private List<Integer> list1 = new ArrayList<Integer>();
+    private List<Integer> list2 = new ArrayList<Integer>();
 
     /**
      * synchronized, methods use different data (list1 list2) so by synchronized

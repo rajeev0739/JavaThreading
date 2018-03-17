@@ -7,18 +7,7 @@ package ProducerConsumer_7;
  * Producer-Consumer is the situation where one or more threads are producing
  * data items and adding them to a shared data store of some kind while one or
  * more other threads process those items, removing them from the data store.
- * <br><br>
- * Codes with minor comments are from
- * <a href="http://www.caveofprogramming.com/youtube/">
- * <em>http://www.caveofprogramming.com/youtube/</em>
- * </a>
- * <br>
- * also freely available at
- * <a href="https://www.udemy.com/java-multithreading/?couponCode=FREE">
- *     <em>https://www.udemy.com/java-multithreading/?couponCode=FREE</em>
- * </a>
  *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -40,7 +29,7 @@ public class App {
      * which was designed to provide a higher level abstraction over
      * the wait/notify mechanism.
      */
-    private static BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
+    private static BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(10);
 
     public static void main(String[] args) throws InterruptedException {
 

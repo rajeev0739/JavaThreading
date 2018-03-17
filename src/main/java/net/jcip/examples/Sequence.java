@@ -5,7 +5,6 @@ import net.jcip.annotations.*;
 /**
  * Sequence
  *
- * @author Brian Goetz and Tim Peierls
  */
 
 @ThreadSafe

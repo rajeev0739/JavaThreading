@@ -7,7 +7,6 @@ import net.jcip.annotations.*;
  *
  * Race condition in lazy initialization
  *
- * @author Brian Goetz and Tim Peierls
  */
 
 @NotThreadSafe

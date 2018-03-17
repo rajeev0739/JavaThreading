@@ -16,18 +16,6 @@ import java.util.concurrent.*;
  * in fact happens to drive the thread scheduler) and hardware interrupts (where
  * the CPU automatically performs a similar task in response to some hardware
  * signal).
- * <br><br>
- * Codes with minor comments are from
- * <a href="http://www.caveofprogramming.com/youtube/">
- * <em>http://www.caveofprogramming.com/youtube/</em>
- * </a>
- * <br>
- * also freely available at
- * <a href="https://www.udemy.com/java-multithreading/?couponCode=FREE">
- * <em>https://www.udemy.com/java-multithreading/?couponCode=FREE</em>
- * </a>
- *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 public class App {
 
@@ -39,7 +27,6 @@ public class App {
 
         Future<?> fu = executor.submit(new Callable<Void>() {
 
-            @Override
             public Void call() throws Exception {
 
                 for (int i = 0; i < 1E8; i++) {

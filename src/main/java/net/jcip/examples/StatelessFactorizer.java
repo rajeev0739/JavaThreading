@@ -10,7 +10,6 @@ import net.jcip.annotations.*;
  *
  * A stateless servlet
  * 
- * @author Brian Goetz and Tim Peierls
  */
 @ThreadSafe
 public class StatelessFactorizer extends GenericServlet implements Servlet {

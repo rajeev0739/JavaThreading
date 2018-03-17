@@ -11,7 +11,6 @@ import net.jcip.annotations.*;
  *
  * Servlet that attempts to cache its last result without adequate atomicity
  *
- * @author Brian Goetz and Tim Peierls
  */
 
 @NotThreadSafe

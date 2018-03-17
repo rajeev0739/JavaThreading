@@ -30,11 +30,6 @@ import java.util.concurrent.Executors;
  * are provided by multiple threads and application can not start processing
  * until all services have started successfully.
  * <br><br>
- * Codes with minor comments are from <em>http://www.caveofprogramming.com/youtube/</em><br>
- * also freely available at
- * <em>https://www.udemy.com/java-multithreading/?couponCode=FREE</em>
- *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 class Processor implements Runnable {
 
@@ -52,6 +47,7 @@ class Processor implements Runnable {
         } catch (InterruptedException ignored) {}
         latch.countDown();
     }
+
 }
 
 public class App {

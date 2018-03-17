@@ -10,7 +10,6 @@ import net.jcip.annotations.*;
  * <p/>
  * Servlet that caches its last request and result
  *
- * @author Brian Goetz and Tim Peierls
  */
 @ThreadSafe
 public class CachedFactorizer extends GenericServlet implements Servlet {

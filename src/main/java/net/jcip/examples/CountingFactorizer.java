@@ -11,7 +11,6 @@ import net.jcip.annotations.*;
  *
  * Servlet that counts requests using AtomicLong
  *
- * @author Brian Goetz and Tim Peierls
  */
 @ThreadSafe
 public class CountingFactorizer extends GenericServlet implements Servlet {

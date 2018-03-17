@@ -18,17 +18,6 @@ import java.util.concurrent.*;
  * any checked exception. To overcome these limitations, Java 5 introduced a new
  * task abstraction through {@link java.util.concurrent.Callable} interface.
  * <br><br>
- * Codes with minor comments are from
- * <a href="http://www.caveofprogramming.com/youtube/">
- * <em>http://www.caveofprogramming.com/youtube/</em>
- * </a>
- * <br>
- * also freely available at
- * <a href="https://www.udemy.com/java-multithreading/?couponCode=FREE">
- * <em>https://www.udemy.com/java-multithreading/?couponCode=FREE</em>
- * </a>
- *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 public class App {
 
@@ -38,7 +27,7 @@ public class App {
         //anonymous call of Callable
         Future<Integer> future = executor.submit(new Callable<Integer>() {
 
-            @Override
+            
             //return value is Integer
             public Integer call() throws TimeoutException {
                 Random random = new Random();

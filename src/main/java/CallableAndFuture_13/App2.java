@@ -5,8 +5,6 @@ import java.util.concurrent.*;
 
 /**
  * Understanding Callable
- *
- * @author Z.B. Celik <celik.berkay@gmail.com>
  */
 class MyCallable implements Callable<Integer> {
 
@@ -16,7 +14,6 @@ class MyCallable implements Callable<Integer> {
         this.value = i;
     }
 
-    @Override
     public Integer call() throws Exception {
         Integer sum = 0;
         for (int i = 0; i < value; i++) {
@@ -31,7 +28,7 @@ class MyCallable implements Callable<Integer> {
 public class App2 {
 
     public static void main(String[] args) throws InterruptedException {
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         ExecutorService executor = Executors.newCachedThreadPool();
         Future<Integer> future;
 

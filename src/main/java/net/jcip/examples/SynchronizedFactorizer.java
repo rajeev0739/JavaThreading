@@ -10,7 +10,6 @@ import net.jcip.annotations.*;
  *
  * Servlet that caches last result, but with unnacceptably poor concurrency
  *
- * @author Brian Goetz and Tim Peierls
  */
 
 @ThreadSafe
